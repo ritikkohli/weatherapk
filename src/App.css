@@ -1,0 +1,96 @@
+#root {
+  max-width: device-width;
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  margin-top: 3rem;
+  margin-left: 15%;
+  height: 35rem;
+  width: 70%;
+  background-color: lightblue;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.top{
+  display: flex;
+  height: 30%;
+  justify-content: space-evenly;
+}
+.time-place{
+  /* background-color: black; */
+  /* color: wheat; */
+  width: 15rem;
+}
+.temp-card{
+  width: 15rem;
+  /* background-color: black; */
+  /* color: wheat; */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.temp-card p{
+  margin: 0;
+}
+.temp-card h2{
+  margin: 0;
+}
+.search-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box{
+  height: 2rem;
+  width: 17rem;
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 0;
+  font-size: medium;
+  font-weight: bold;
+}
+.search-box:focus{
+  outline: none;
+}
+.search-icon{
+  background-color: white;
+  height : 2rem;
+  padding-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.location-icon{
+  background-color: white;
+  height : 2rem;
+  padding-right: 0.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggler{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.toggle-button{
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 1rem;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.active{
+  border-bottom: 2px solid black;
+}
+.weather-image{
+  height: 7rem;
+  width: 7rem;
+}

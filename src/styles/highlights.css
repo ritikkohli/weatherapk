@@ -1,0 +1,18 @@
+.highlights{
+    /* width: 54%; */
+    /* margin-left: 23%; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap : wrap;
+    box-sizing: border-box;
+    /* background-color: black; */
+    padding: 1rem;
+  }
+  .highlight-card{
+    height: 4rem;
+    width: 12rem;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }

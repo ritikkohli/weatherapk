@@ -1,0 +1,23 @@
+.weekly{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: black; */
+    width: 90%;
+    padding: 1rem;
+    margin-left: 5%;
+    margin-top: 1rem;
+    box-sizing: border-box;
+  }
+  .slide{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: blueviolet;
+  }
+  .slide img{
+    height: 3rem;
+    width: 3rem;
+  }
+  .slide p{
+    margin: 0;
+  }
